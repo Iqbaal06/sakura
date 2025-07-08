@@ -13,7 +13,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 //router
-let downloader = await('.././routes/downloader.js').r();
+let downloader = await './routes/downloader.js'.r();
 
 app.use(express.json());
 app.use(bodyParser.json());
