@@ -1,0 +1,186 @@
+.search-container {
+      position: relative;
+      display: flex; 
+      align-items: center; 
+    }
+    
+    .search-container input {
+      padding-left: 30px; 
+    }
+    
+    .search-container i {
+      position: absolute;
+      left: 10px; 
+      color: #6c757d; 
+    }
+    
+    /* Dark mode styles */
+      .dark-mode {
+        background-color: #121212;
+        color: #e0e0e0;
+      }
+    
+      .dark-mode .navbar,
+      .dark-mode .app-header {
+        background-color: #1e1e1e; 
+        color: #e0e0e0; 
+      }
+    
+      .dark-mode .navbar-light .navbar-nav .nav-link {
+        color: #e0e0e0; 
+      }
+    
+      .dark-mode .navbar .notification {
+        background-color: #ff5722; 
+      }
+    
+      .dark-mode .dropdown-menu {
+        background-color: #2c2c2c; 
+        color: #e0e0e0; 
+      }
+    
+      .dark-mode .dropdown-item {
+        color: #e0e0e0; 
+      }
+    
+      .dark-mode .dropdown-item:hover {
+        background-color: #444444; 
+      }
+    
+      .dark-mode .navbar-nav .nav-link,
+      .dark-mode .navbar-brand,
+      .dark-mode .navbar-toggler-icon {
+        color: #e0e0e0; 
+      }
+      
+      .dark-mode .card {
+        background-color: #1e1e1e; 
+        border: 1px solid #333;
+      }
+    
+      .dark-mode .card-body {
+        color: #e0e0e0; 
+      }
+      
+      .dark-mode .card-title {
+        color: #e0e0e0; 
+      }
+    
+      .dark-mode .table {
+        background-color: #1e1e1e; 
+        color: #e0e0e0; 
+      }
+    
+      .dark-mode .table thead {
+        background-color: #333; 
+        color: #e0e0e0; 
+      }
+    
+      .dark-mode .table tbody tr {
+        border-bottom: 1px solid #444; 
+      }
+    
+      .dark-mode .table tbody tr:nth-child(even) {
+        background-color: #2c2c2c; 
+      }
+    
+      .dark-mode .table tbody tr:hover {
+        background-color: #444; 
+      }
+    
+      .dark-mode .search-container input {
+        background-color: #333; 
+        color: #e0e0e0; 
+        border: 1px solid #444; 
+      }
+      
+      .dark-mode .search-container input::placeholder {
+          color: #b0b0b0; 
+        }
+    
+      .dark-mode .search-container i {
+        color: #e0e0e0; 
+      }
+      
+      .dark-mode .left-sidebar {
+          background-color: #1e1e1e;
+        }
+    
+        .dark-mode .left-sidebar .sidebar-nav {
+          background-color: #1e1e1e;
+        }
+    
+        .dark-mode .left-sidebar .sidebar-nav .sidebar-link {
+          color: #e0e0e0;
+        }
+    
+        .dark-mode .left-sidebar .sidebar-nav .sidebar-link:hover {
+          background-color: #333;
+        }
+    
+        .dark-mode .brand-logo h1 {
+          color: #ffffff;
+        }
+    
+        .dark-mode .hide-menu {
+          color: #ffffff; 
+        }
+        
+        .pagination {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 20px;
+         }
+
+        .prev-btn, .next-btn {
+          background-color: #333;
+          color: #fff;
+          border: none;
+          padding: 8px 12px;
+          cursor: pointer;
+         }
+
+        .page-numbers {
+          display: flex;
+          margin: 0 10px;
+         }
+
+        .page-num {
+          background-color: #333;
+          color: #fff;
+          padding: 8px 12px;
+          margin: 0 2px;
+          cursor: pointer;
+          }
+
+         .page-num.active {
+           background-color: #ff4d4d;
+          }
+
+         .row-select {
+           background-color: #333;
+           color: #fff;
+           border: none;
+           padding: 8px 12px;
+           cursor: pointer;
+           text-align: center; 
+           border-radius: 4px; 
+          }
+
+         .select-container {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           margin-bottom: 20px;
+          }
+
+        .select-label {
+          font-size: 1.2rem; 
+          margin-right: 10px; 
+         }
+          
+         .card-title {
+           font-size: 1.8rem; 
+           text-align: center; 
+         }
