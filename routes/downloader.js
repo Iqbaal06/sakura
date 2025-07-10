@@ -1,9 +1,9 @@
-const express = "express".import();
+const express = await "express".import();
 var router = express.Router();
 
-var { tiktok } = await("../lib/scraper/downloader").r()
+let { tiktok } = await "../lib/scraper/downloader.js".r();
 
-let creator = '@asakura';
+let creator = '@sakura';
 
 let PromiseRes = (hasil) => {
   return { creator: creator, status: 200, result: hasil }
