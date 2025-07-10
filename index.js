@@ -18,7 +18,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 //router
-const { default: downloader } = await '../routes/downloader.js'.r();
+const { default: downloader } = await './routes/downloader.js'.r();
 
 app.use(express.json());
 if (typeof bodyParser === "function" || typeof bodyParser?.json !== "function") {
